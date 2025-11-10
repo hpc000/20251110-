@@ -1,0 +1,9 @@
+question,optionA,optionB,optionC,optionD,answer,explanation
+在 JavaScript 中，用來宣告變數並能在整個函式範圍使用的關鍵字是？,let,const,var,static,C,在函式內可用 var 宣告變數，會有函式作用域；let/const 有區塊作用域
+哪一個 HTML 標籤用來載入外部 JavaScript 檔案？,<script>,<js>,<link>,<import>,A,使用<script src="...">載入外部 JS。
+在 CSS 中，選擇器 .class 與 #id 的差別是？,.class 選擇 class，#id 選擇 id，兩者相同，沒有差別，.class 更具體,A, .class 用於 class 屬性，#id 用於 id；id 通常應唯一。
+在 p5.js 中，哪個函式會在每一個畫格呼叫？,setup(),draw(),preload(),init(),B,draw() 會在每個 frame 被呼叫，setup() 只執行一次。
+在 JavaScript 中，=== 與 == 的差別是？,=== 比較型別和值，== 只比較值並做型別轉換,== 比較型別和值，=== 只比較值,兩者完全相同,=== 只比較引用,A,=== 為嚴格相等（不做型別轉換），== 會做型別轉換再比較。
+下列哪一種資料結構最適合用來儲存一組有順序、可重複的元素？,Array,Object,Set,Map,A,Array（陣列）可儲存有順序且可重複的元素。
+在 HTTP 中，用來向伺服器取得資源的預設方法是？,GET,POST,PUT,DELETE,A,GET 用於取得資源，POST 用於提交資料。
+哪一個伺服器設定可以讓你在本機開發時避免 loadTable 因為 file:// 而失敗？,在本機用 HTTP server（例如 python -m http.server）,使用 file:// 打開 index.html,把 CSV 轉成 json,把 CSV 內嵌在 HTML,A,用 HTTP server 提供靜態檔案（例如 python -m http.server）可解決 loadTable 的跨來源 / file 協定問題。
